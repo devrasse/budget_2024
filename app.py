@@ -74,6 +74,7 @@ with loading_state.container():
 loading_state.empty()
 
 budget = df.copy()
+budget = budget.dropna(subset=['산출근거식'])
 # #budget.drop(0, inplace=True)
 selected_columns = ['회계연도', '예산구분', '세부사업명', '부서명', '예산액', '자체재원']
 budget = budget[selected_columns]
