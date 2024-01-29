@@ -217,7 +217,7 @@ with col1:
                 'size' : 20}}, margin = dict(t=100, l=25, r=25, b=25))
     fig.update_traces(marker = dict(line=dict(width = 1, color = 'black')))
     fig.update_traces(texttemplate='%{label}: %{value:,.0f}백만원' , textposition='middle center',
-                      textfont_color='black')
+                    textfont_color='black')
     fig.update_traces(#hoverinfo='label+percent+value', 
                     hovertemplate='%{label}: %{value:,.0f}백만원')
     fig.update_traces(hoverlabel=dict(font_size=16, font_family="Arial", font_color="white"))
@@ -239,7 +239,7 @@ with col2:
                 'size' : 20}}, margin = dict(t=100, l=25, r=25, b=25))
     fig.update_traces(marker = dict(line=dict(width = 1, color = 'black')))
     fig.update_traces(texttemplate='%{label}: %{value:,.0f}백만원' , textposition='middle center', 
-                      textfont_color='black') 
+                    textfont_color='black') 
     fig.update_traces(#hoverinfo='label+percent+value', 
                     hovertemplate='%{label}: %{value:,.0f}백만원')
     fig.update_traces(hoverlabel=dict(font_size=16, font_family="Arial", font_color="white"))
